@@ -1,0 +1,9 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "cSpell.words": [
+        "STRs",
+        "isalpha"
+    ],
+    "python.formatting.provider": "black"
+}

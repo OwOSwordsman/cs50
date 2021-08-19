@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Trivia!</title>
+
+    <!-- TODO: Add code to check answers to questions -->
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <h1>Trivia!</h1>
+    </div>
+
+    <div class="container">
+
+        <div class="section">
+            <h2>Part 1: Multiple Choice </h2>
+            <hr>
+
+            <!-- TODO: Add multiple choice question here -->
+            <h3>What is the name of the longest river in the world?"</h3>
+            <h4 id="q1Result"></h4> <!-- populate response with js -->
+            <form id="q1Buttons">
+                <input type="button" onClick="checkQ1(event)" value="Mississippi River">
+                <input type="button" onClick="checkQ1(event)" value="Nile River">
+                <input type="button" onClick="checkQ1(event)" value="Amazon River">
+                <input type="button" onClick="checkQ1(event)" value="Rio Grande">
+            </form>
+
+        </div>
+
+        <div class="section">
+            <h2>Part 2: Free Response</h2>
+            <hr>
+
+            <!-- TODO: Add free response question here -->
+            <h3>Who discovered penicillin?</h3>
+            <h4 id="q2Result"></h4> <!-- populate result with js -->
+            <form>
+                <input type="text" placeholder="Enter response here" id="q2Input">
+                <input type="button" value="Confirm" onClick="checkQ2()">
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>

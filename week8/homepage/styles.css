@@ -1,0 +1,19 @@
+#title {
+    text-align: center;
+    padding-top: 300px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#subtitle {
+    text-align: center;
+}
+
+#home-buttons {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+button, input[type='submit'] {
+    offset: 4;
+}

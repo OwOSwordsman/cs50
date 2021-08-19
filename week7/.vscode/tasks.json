@@ -1,0 +1,15 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Test SQL on movies.db",
+            "command": "cat ${file} | sqlite3 movies.db",
+            "args": [],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "group": "test"
+        }
+    ],
+    "version": "2.0.0"
+}

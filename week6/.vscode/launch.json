@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${fileDirname}",
+            "args": ["./databases/large.csv", "./sequences/13.txt"],
+            "console": "integratedTerminal"
+        }
+    ]
+}
